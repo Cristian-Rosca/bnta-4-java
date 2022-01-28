@@ -12,6 +12,10 @@ import java.util.Scanner;
 public class Exercise6 {
     public static void main(String[] args) {
 
+        validateEmail();
+    }
+
+    public static void validateEmail() {
         Scanner scanner = new Scanner (System.in);
         System.out.println("Input your email below");
         String email = scanner.nextLine();
